@@ -42,33 +42,33 @@
 		<PowerConsumptionMoving>0.001</PowerConsumptionMoving>
 		<DamageEffectId>212</DamageEffectId>
 		<Subparts>
-		  <SubpartDefinition>
-			<Name>DSNAirlockPart01</Name>
-		  </SubpartDefinition>
+		   <SubpartDefinition>
+            <Name>DSNAirlockPart01_Large</Name>
+          </SubpartDefinition>
 		</Subparts>
 		<OpeningSequence>
 			<Opening>
-			  <IDs>0</IDs> 
-			  <Move>Rotate</Move>
-			  <RotationAxis>Z</RotationAxis>
-			  <MaxOpen>180</MaxOpen>
-			  <Speed>90</Speed>
-			  <OpenDelay>0</OpenDelay>
-			  <CloseDelay>2</CloseDelay>
-			  <OpenSound>BlockDoorSmallOpen</OpenSound>
-			  <CloseSound>BlockDoorSmallClose</CloseSound>
-			</Opening>
-			<Opening>
-			  <IDs>0</IDs>
-			  <Move>Slide</Move>
-			  <SlideDirection x="-1" y="0" z="0" />
-			  <MaxOpen>1</MaxOpen>
-			  <Speed>1</Speed>
-			  <OpenDelay>0</OpenDelay>
-			  <CloseDelay>1</CloseDelay>
-			  <OpenSound>BlockDoorSmallOpen</OpenSound>
-			  <CloseSound>BlockDoorSmallClose</CloseSound>
-			</Opening>
+              <IDs>0</IDs> 
+              <Move>Rotate</Move>
+              <RotationAxis>Y</RotationAxis>
+              <MaxOpen>135</MaxOpen>
+              <Speed>61.36</Speed>
+              <OpenDelay>0</OpenDelay>
+              <CloseDelay>0</CloseDelay>
+              <OpenSound>BlockDoorSmallOpen</OpenSound>
+              <CloseSound>BlockDoorSmallClose</CloseSound>
+            </Opening>
+            <Opening>
+              <IDs>0</IDs>
+              <Move>Slide</Move>
+              <SlideDirection x="-1" y="0" z="0" />
+              <MaxOpen>2.2</MaxOpen>
+              <Speed>1</Speed>
+              <OpenDelay>0</OpenDelay>
+              <CloseDelay>0</CloseDelay>
+              <OpenSound>BlockDoorSmallOpen</OpenSound>
+              <CloseSound>BlockDoorSmallClose</CloseSound>
+            </Opening>
 		</OpeningSequence>
 	</Definition>
   </CubeBlocks>

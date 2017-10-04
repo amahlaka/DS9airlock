@@ -5,7 +5,7 @@
 	<Parameter Name="Centered">false</Parameter>
 	<Parameter Name="SpecularPower">0.0</Parameter>
 	<Parameter Name="SpecularShininess">0.0</Parameter>
-	<Material Name="GearRed.003">
+	<Material Name="PaintedMetal_Red">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="SpecularIntensity">0.0</Parameter>
 		<Parameter Name="SpecularPower">0.0</Parameter>
