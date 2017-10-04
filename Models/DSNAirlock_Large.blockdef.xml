@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>DSNAirlock_Large</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\DSNAirlock.dds</Icon>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\DSNAirlock_Large.mwm</Model>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.01" StartY="0.38" EndX="0.99" EndY="0.62" />
+		<MountPoint Side="Back" StartX="0.01" StartY="0.38" EndX="0.99" EndY="0.62" />
+		<MountPoint Side="Left" StartX="0.01" StartY="0.38" EndX="0.99" EndY="0.62" />
+		<MountPoint Side="Right" StartX="0.01" StartY="0.38" EndX="0.99" EndY="0.62" />
+	</MountPoints>
+	<BlockPairName>DSNAirlock</BlockPairName>
+</Definition>

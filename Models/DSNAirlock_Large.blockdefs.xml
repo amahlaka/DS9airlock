@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CubeBlocks>	
+	
+	<Definition xsi:type="MyObjectBuilder_AdvancedDoorDefinition">
+		<Id>
+			<TypeId>AdvancedDoor</TypeId>
+			<SubtypeId>DSNAirlock_Large</SubtypeId>
+		</Id>
+		<DisplayName>Airlock Gear</DisplayName>
+		<Icon>Textures\Icons\DSNAirlock.dds</Icon>
+		<CubeSize>Large</CubeSize>
+		<BlockTopology>TriangleMesh</BlockTopology>
+		<Size x="1" y="1" z="1" />
+		<ModelOffset x="0" y="0" z="0" />
+		<Model>Models\DSNAirlock_Large.mwm</Model>
+		<Components>
+			<Component Subtype="SteelPlate" Count="2" />
+			<Component Subtype="InteriorPlate" Count="2" />
+			<Component Subtype="Construction" Count="15" />
+			<Component Subtype="MetalGrid" Count="4" />
+			<Component Subtype="SmallTube" Count="4" />
+			<Component Subtype="Motor" Count="2" />
+			<Component Subtype="Display" Count="2" />
+			<Component Subtype="Computer" Count="2" />
+			<Component Subtype="InteriorPlate" Count="6" />
+			<Component Subtype="Construction" Count="25" />
+			<Component Subtype="SteelPlate" Count="6" />
+		</Components>
+		<CriticalComponent Subtype="Computer" Index="0" />
+		<MountPoints>
+				<MountPoint Side="Front" StartX="0.01" StartY="0.38" EndX="0.99" EndY="0.62" />
+				<MountPoint Side="Back" StartX="0.01" StartY="0.38" EndX="0.99" EndY="0.62" />
+				<MountPoint Side="Left" StartX="0.01" StartY="0.38" EndX="0.99" EndY="0.62" />
+				<MountPoint Side="Right" StartX="0.01" StartY="0.38" EndX="0.99" EndY="0.62" />
+		</MountPoints>
+		<BlockPairName>DSNAirlock</BlockPairName>
+		<EdgeType>Light</EdgeType>
+		<BuildTimeSeconds>24</BuildTimeSeconds>
+		<DisassembleRatio>1.5</DisassembleRatio>
+		<PowerConsumptionIdle>0.00001</PowerConsumptionIdle>
+		<PowerConsumptionMoving>0.001</PowerConsumptionMoving>
+		<DamageEffectId>212</DamageEffectId>
+		<Subparts>
+		  <SubpartDefinition>
+			<Name>DSNAirlockPart01</Name>
+		  </SubpartDefinition>
+		  <SubpartDefinition>
+			<Name>DSNAirlockPart02</Name>
+		  </SubpartDefinition>
+		</Subparts>
+		<OpeningSequence>
+			<Opening>
+			  <IDs>2</IDs> 
+			  <Move>Rotate</Move>
+			  <RotationAxis>Z</RotationAxis>
+			  <MaxOpen>180</MaxOpen>
+			  <Speed>90</Speed>
+			  <OpenDelay>0</OpenDelay>
+			  <CloseDelay>2</CloseDelay>
+			  <OpenSound>BlockDoorSmallOpen</OpenSound>
+			  <CloseSound>BlockDoorSmallClose</CloseSound>
+			</Opening>
+			<Opening>
+			  <IDs>2</IDs>
+			  <Move>Slide</Move>
+			  <SlideDirection x="-1" y="0" z="0" />
+			  <MaxOpen>1</MaxOpen>
+			  <Speed>1</Speed>
+			  <OpenDelay>0</OpenDelay>
+			  <CloseDelay>1</CloseDelay>
+			  <OpenSound>BlockDoorSmallOpen</OpenSound>
+			  <CloseSound>BlockDoorSmallClose</CloseSound>
+			</Opening>
+		</OpeningSequence>
+	</Definition>
+  </CubeBlocks>
+</Definitions>
