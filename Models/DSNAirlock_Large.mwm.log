@@ -1,4 +1,4 @@
-Running from: C:\Users\arttu\AppData\Local\Temp\tmpg_b2ceae 
+Running from: C:\Users\arttu\AppData\Local\Temp\tmpv97j11br 
 Command: C:\Users\arttu\Downloads\mwm\MwmBuilder.exe /s:Content /m:DSNAirlock_Large.fbx /o:.\ 
 : WARNING: 
     Could not find Materials library folder.
@@ -1282,14 +1282,6 @@ Command: C:\Users\arttu\Downloads\mwm\MwmBuilder.exe /s:Content /m:DSNAirlock_La
     Model contains degenerated triangle (indices 1631 2265 2261)
 : WARNING: 
     Model contains degenerated triangle (indices 1631 2261 1631)
-: WARNING: 
-    Model contains degenerated triangle (indices 7535 7534 7533)
-: WARNING: 
-    Model contains degenerated triangle (indices 7535 7533 7533)
-: WARNING: 
-    Model contains degenerated triangle (indices 9782 9781 9780)
-: WARNING: 
-    Model contains degenerated triangle (indices 9782 9780 9780)
-C:\Users\arttu\AppData\Local\Temp\tmpg_b2ceae\Content\DSNAirlock_Large.fbx: Processed
+C:\Users\arttu\AppData\Local\Temp\tmpv97j11br\Content\DSNAirlock_Large.fbx: Processed
 : 
     : Finished in 0.2s
