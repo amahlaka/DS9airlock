@@ -45,13 +45,10 @@
 		  <SubpartDefinition>
 			<Name>DSNAirlockPart01</Name>
 		  </SubpartDefinition>
-		  <SubpartDefinition>
-			<Name>DSNAirlockPart02</Name>
-		  </SubpartDefinition>
 		</Subparts>
 		<OpeningSequence>
 			<Opening>
-			  <IDs>2</IDs> 
+			  <IDs>0</IDs> 
 			  <Move>Rotate</Move>
 			  <RotationAxis>Z</RotationAxis>
 			  <MaxOpen>180</MaxOpen>
@@ -62,7 +59,7 @@
 			  <CloseSound>BlockDoorSmallClose</CloseSound>
 			</Opening>
 			<Opening>
-			  <IDs>2</IDs>
+			  <IDs>0</IDs>
 			  <Move>Slide</Move>
 			  <SlideDirection x="-1" y="0" z="0" />
 			  <MaxOpen>1</MaxOpen>
