@@ -14,19 +14,39 @@
 		<Parameter Name="DiffuseColorZ">255</Parameter>
 		<!--material has no DiffuseTexture-->
 		<!--material has no NormalTexture-->
-		<!--material has no ColorMetalTexture-->
-		<!--material has no NormalGlossTexture-->
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetalRed_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalColorable_ng.dds</Parameter>
 		<!--material has no AddMapsTexture-->
 		<!--material has no AlphamaskTexture-->
 	</Material>
-	<Material Name="GlassOpq.003">
-		<Parameter Name="Technique">MESH</Parameter>
+	<Material Name="Glass">
+		<Parameter Name="Technique">GLASS</Parameter>
 		<Parameter Name="SpecularIntensity">0.0</Parameter>
 		<Parameter Name="SpecularPower">0.0</Parameter>
 		<Parameter Name="DiffuseColorX">255</Parameter>
 		<Parameter Name="DiffuseColorY">255</Parameter>
 		<Parameter Name="DiffuseColorZ">255</Parameter>
-		<!--material has no DiffuseTexture-->
+		<Parameter Name="GlassMaterialCCW">Glass</Parameter>
+		<Parameter Name="GlassMaterialCW">Glass</Parameter>
+		<Parameter Name="GlassSmooth">False</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="FrostedGlass">
+		<Parameter Name="Technique">GLASS</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="GlassMaterialCCW">Glass</Parameter>
+		<Parameter Name="GlassMaterialCW">Glass</Parameter>
+		<Parameter Name="GlassSmooth">False</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
 		<!--material has no NormalTexture-->
 		<!--material has no ColorMetalTexture-->
 		<!--material has no NormalGlossTexture-->

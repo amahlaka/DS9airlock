@@ -1,7 +1,7 @@
-Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\arttu\AppData\Local\Temp\space_engineers_aitggwzr.hko -p C:\Users\arttu\Desktop\AirlockDoor\Models\DSNAirlockPart01_Large.hkt C:\Users\arttu\Desktop\AirlockDoor\Models\DSNAirlockPart01_Large.hkt 
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\arttu\AppData\Local\Temp\space_engineers_l8xyunva.hko -p C:\Users\arttu\Desktop\AirlockDoor\Models\DSNAirlockPart01_Large.hkt C:\Users\arttu\Desktop\AirlockDoor\Models\DSNAirlockPart01_Large.hkt 
 [ Processing All Configurations... ]
     
-    ========== Started: Thu Oct 05 02:14:11 2017, Configuration: default ==========
+    ========== Started: Thu Oct 05 04:41:59 2017, Configuration: default ==========
     
     [ [Physics 2012] Create Rigid Bodies Filter ]
         [0xabbabfd4] Warning : 'Cylinder' - Calculated 'extra radius' for cylinder shape is 0. Performance may be affected.
